@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'anudawregular';
+    src: url('../pol/ANUDRG__-webfont.eot');
+    src: url('../pol/ANUDRG__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../pol/ANUDRG__-webfont.woff') format('woff'),
+         url('..:pol/ANUDRG__-webfont.ttf') format('truetype'),
+         url('../pol/ANUDRG__-webfont.svg#anudawregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background: url(img/fond_actu.jpg) fixed repeat;
+}
+
+section
+{
+	border-left: 7px solid rgba(255, 56, 2, 0.4);
+	margin-left: 200px;
+}
+
+		/* Date*/
+
+.date
+{
+	margin-left: -70px;
+	position: absolute;
+}
+
+#one
+{
+	margin: -10px 0px 0px -70px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 5px 9px black;
+	border-radius: 5px;
+	padding-top: 5px;	
+	background-color: rgba(159, 243, 0, 0.9);
+}
+
+
+#two
+{
+	margin: 80px 0px 0px -70px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 5px 9px black;
+	border-radius: 5px;
+	padding-top: 5px;	
+	background-color: rgba(159, 243, 0, 0.9);
+}
+
+.chiffre
+{
+	font-size: 20px;
+}
+
+.texte
+{
+	background-color: rgba(59, 200, 226, 0.64);
+	width: 700px;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding:0px 5px;
+	border-radius: 5px;
+	text-align: justify;
+}

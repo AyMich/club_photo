@@ -1,0 +1,60 @@
+					/* Police */
+
+@font-face {
+    font-family: 'anudawregular';
+    src: url('../pol/ANUDRG__-webfont.eot');
+    src: url('../pol/ANUDRG__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../pol/ANUDRG__-webfont.woff') format('woff'),
+         url('../pol/ANUDRG__-webfont.ttf') format('truetype'),
+         url('../pol/ANUDRG__-webfont.svg#anudawregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+					/* Corps */
+
+body
+{
+	background: url(../img/fond.jpg) no-repeat;
+}
+
+img
+{
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	border-radius: 12px;
+}
+
+p
+{
+	color: fuchsia;
+	position: relative;
+	margin: 303px 0px 0px 440px;
+	
+}
+
+img:hover
+{
+	box-shadow: 5px 5px 7px white;
+}
+
+#margin_one
+{
+	margin: 250px 0px 0px 350px;
+}
+
+#margin_two
+{
+	margin: 250px 0px 0px 850px;
+}
+
+#po
+{
+	visibility: hidden;
+}
+
+body img:hover p
+{
+	visibility: visible;
+}

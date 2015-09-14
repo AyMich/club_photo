@@ -1,0 +1,33 @@
+					/* Police */
+
+@font-face {
+    font-family: 'anudawregular';
+    src: url('pol/ANUDRG__-webfont.eot');
+    src: url('pol/ANUDRG__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pol/ANUDRG__-webfont.woff') format('woff'),
+         url('pol/ANUDRG__-webfont.ttf') format('truetype'),
+         url('pol/ANUDRG__-webfont.svg#anudawregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+					/* Corps */
+
+body
+{
+	background: url(img/fond.jpg) no-repeat;
+}
+
+					/* Titre*/
+
+h1
+{
+	font-family: 'anudawregular' arial serif;
+	text-align: center;
+	background-color: black;
+	color:#ced80f;
+	position: absolute;
+	font-size: 40px;
+	top: 370px;
+	left: 590px;
+}
